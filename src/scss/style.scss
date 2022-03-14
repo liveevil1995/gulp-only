@@ -1,0 +1,25 @@
+@import "fonts";
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+span {
+    color: red;
+}
+
+body {
+    background: url("@img/gulp.jpg") 0 0 no-repeat;
+}
+
+@media (max-width: 990px) {
+    span {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 990px) {
+    body {
+        font-size: 20px;
+    }
+}
